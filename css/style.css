@@ -1,0 +1,19 @@
+#hero-section{
+    margin-top: 60px;
+}
+
+.hero-background{
+    background-color: #fceae8;
+}
+
+.catagories-img{
+    width: 100px;
+}
+
+.btn-buy-now{
+    color: #fff;
+    background-color: #ee2e82;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+}
