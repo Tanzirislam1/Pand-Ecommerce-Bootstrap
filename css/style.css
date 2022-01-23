@@ -2,7 +2,7 @@
 /* cutomization */
 
 #hero-section{
-    margin-top: 60px;
+    margin-top: 150px;
 }
 
 .hero-background{
@@ -76,6 +76,14 @@ body{
 }
 
 /* my styles */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
 
 .navbar-nav .nav-item{
     margin-right: 20px;
@@ -287,12 +295,12 @@ body{
 
 /* footer section strat */
 
-#footer-section{
+#footer-section {
     background: rgba(0, 17, 35, 1);
     color: #fff;
-    padding: 80px 0;
     margin-top: 130px;
-}
+    padding-top: 90px;
+  }
 
 /* first col */
 
