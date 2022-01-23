@@ -1,3 +1,6 @@
+
+/* cutomization */
+
 #hero-section{
     margin-top: 60px;
 }
@@ -7,7 +10,7 @@
 }
 
 .catagories-img{
-    width: 100px;
+    width: 140px;
 }
 
 .btn-buy-now{
@@ -16,4 +19,404 @@
     border-radius: 8px;
     padding: 9px 25px;
     border: none;
+    text-transform: capitalize;
 }
+
+.carousel-text{
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+}
+
+.carousel-button{
+    margin-top: 20px;
+}
+
+/* custom css property */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden !important;
+    font-family: euclid;
+}
+
+/* custom fonts */
+
+@font-face {
+    font-family: euclid;
+    src: url('../font/EuclidCircularA-Bold.woff');
+    font-display: block;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: euclid;
+    src: url('../font/EuclidCircularA-SemiBold.woff');
+    font-display: block;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: euclid;
+    src: url('../font/EuclidCircularA-Medium.woff2');
+    font-display: block;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: euclid;
+    src: url('../font/EuclidCircularA-Regular.woff');
+    font-display: block;
+    font-weight: 400;
+}
+
+/* my styles */
+
+.navbar-nav .nav-item{
+    margin-right: 20px;
+}
+
+/* hero section start */
+
+#headphone-section{
+    margin-top: 100px;
+}
+
+.headphone-title{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.headphone-subtitle{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.headphone-text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 92%;
+}
+
+.headphone-img{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.headphone-button{
+    margin-top: 30px;
+}
+
+/* hero section end  */
+
+/* button  */
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 100px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.btn:active{
+    transform: translateY(0);
+    color: #fff;
+}
+
+.btn::after{
+    content: "";
+    display: inline-block;
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.btn-gradient-orange{
+    background: linear-gradient(to right bottom,  #FF9F4A, #FF3C83);
+    color: #fff;
+}
+
+.btn-gradient-orange::after{
+    background: linear-gradient(to right bottom, #FF3C83, #FF9F4A);
+
+}
+
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/* our products */
+
+#our-products{
+    margin-top: 120px;
+}
+
+.catagories {
+    overflow: hidden;
+    transition: all 5s ease-in-out;
+    transition-duration: .5s;
+    padding: 40px 20px 40px 20px;
+}
+
+.catagories-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.catagories:hover .catagories-img{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+/* shoes section */
+
+#shoes-section{
+    margin-top: 40px;
+}
+
+.shoes-title{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* card */
+
+.card{
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.125);
+}
+
+.price-number{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* earbug */
+
+.earbug-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.Buynow-button{
+    margin-top: 20px;
+}
+
+/* joy stick */
+
+#joy-stick-section{
+    margin-top: 120px;
+}
+
+.joy-stick-background{
+    background-color: #fceae8;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joystick-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.joystick-subtitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.joy-stcik-img{
+    width: 100%;
+}
+
+.joy-stick-right-contents{
+    position: relative;
+    top: 0;
+    left: 40px;
+}
+
+/* subscribe */
+
+#subscribe-section{
+    margin-top: 120px;
+}
+
+
+/* footer section strat */
+
+#footer-section{
+    background: rgba(0, 17, 35, 1);
+    color: #fff;
+    padding: 80px 0;
+    margin-top: 130px;
+}
+
+/* first col */
+
+.footer-icons{
+    margin-top: 30px;
+}
+
+.icon-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-item{
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.list-item:hover{
+    transform: rotate(360deg);
+}
+
+.list-item:not(:last-child){
+    margin-right: 16px;
+}
+
+.list-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.list-link:hover{
+    color: #fff;
+}
+
+.whats-app-text{
+    text-decoration: none;
+}
+
+.whats-app{
+    margin-top: 190px;
+}
+
+.fa-whatsapp{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 23px;
+}
+
+.icon-right-text{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    transform: translateY(-5px);
+}
+
+/* second col */
+
+.footer-heading-title-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-text-title-1{
+    margin-top: 30px;
+}
+
+.text-list-1{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.text-item-1{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.text-item-1:not(:last-child){
+    margin-bottom: 20px;
+}
+
+/* third col */
+
+.footer-heading-title-2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-text-title-2{
+    margin-top: 30px;
+}
+
+.text-list-2{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.text-item-2{
+    font-size: 14px;
+    font-weight: 300;
+}
+    
+.text-item-2:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.text-item-2-modified{
+    font-size: 14px;
+    font-weight: 300;
+    width: 55%;
+}
+
+/* footer bottom */
+
+
+/* footer section end */
